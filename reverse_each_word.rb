@@ -3,20 +3,20 @@
 def reverse_each_word(string)
   new_array = string.split(" ")
 
-  new_array.collect {|element| element.reverse}
+  new_array.collect {|element| element.reverse!}
   new_array.join(" ")
 end
 
 
-def reverse_collect_word(string)
+# def reverse_collect_word(string)
 
-  new_array = string.split(" ")
+#   new_array = string.split(" ")
 
-  new_array.collect {|element| element.reverse}
-  new_array.join(" ")
+#   new_array.collect {|element| element.reverse!}
+#   new_array.join(" ")
 
 
-end
+# end
 
 # def hamburger(toppings)
 #   toppings.collect do |topping|
